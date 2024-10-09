@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
-address = "https://www.dadrah.ir/related-consulting.php?tags=%D8%AA%D8%AC%D8%A7%D9%88%D8%B2%20%DA%AF%D8%B1%D9%88%D9%87%DB%8C-%D8%AA%D8%AC%D8%A7%D9%88%D8%B2%20%D8%AC%D9%86%D8%B3%DB%8C-%D8%B4%DA%A9%D8%A7%DB%8C%D8%AA%20%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%AA%D8%AC%D8%A7%D9%88%D8%B2&page="
+address = "https://www.dadrah.ir/related-consulting.php?tags=%DA%A9%D9%84%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%DA%86%DA%A9&page=&page="
 max_page_num = 52
 
 df = pd.DataFrame(columns=['Title', 'Link', 'Question', 'Tags', 'Date'])
